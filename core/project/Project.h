@@ -18,7 +18,15 @@ public:
 //----------------------------------------------------------------------------
   // Implementation of IProject interface members.
   void SetModified();
+  
+  bool IsModified();
 
+  bool Load(const wstring & aFilePath);
+
+  bool Save();
+
+  bool Save(const wstring & aFilePath);
+    
 private:
 
   bool mModified;

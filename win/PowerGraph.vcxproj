@@ -118,6 +118,7 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\core\Context.cpp" />
     <ClCompile Include="..\core\PowerGraph.cpp" />
     <ClCompile Include="..\core\project\Project.cpp" />
     <ClCompile Include="..\core\stdafx.cpp" />
@@ -131,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\core\AboutDlg.h" />
+    <ClInclude Include="..\core\Context.h" />
     <ClInclude Include="..\core\MainFrm.h" />
     <ClInclude Include="..\core\PowerGraph.h" />
     <ClInclude Include="..\core\PowerGraphView.h" />
