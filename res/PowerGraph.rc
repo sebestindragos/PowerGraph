@@ -49,17 +49,16 @@ END
 // Toolbar
 //
 
-IDR_MAINFRAME TOOLBAR 16, 15
+IDR_MAINFRAME TOOLBAR 20, 20
 BEGIN
     BUTTON      ID_FILE_NEW
     BUTTON      ID_FILE_OPEN
     BUTTON      ID_FILE_SAVE
     SEPARATOR
-    BUTTON      ID_EDIT_CUT
-    BUTTON      ID_EDIT_COPY
-    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_FILE_ADD_NODE
+    BUTTON      ID_FILE_DELETE_NODE
+    BUTTON      ID_FILE_LINK_NODE
     SEPARATOR
-    BUTTON      ID_FILE_PRINT
     BUTTON      ID_APP_ABOUT
 END
 
@@ -69,7 +68,7 @@ END
 // Bitmap
 //
 
-IDR_MAINFRAME           BITMAP                  "..\\uires\\Toolbar.bmp"
+IDR_MAINFRAME           BITMAP                  "..\\uires\\toolbar.bmp"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -118,7 +117,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDR_MAINFRAME           ICON                    "..\\uires\\PowerGraph.ico"
+IDR_MAINFRAME           ICON                    "D:\\JobPowerGraph\\uires\\PowerGraph.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -224,7 +223,6 @@ BEGIN
     END
 END
 
-
 /////////////////////////////////////////////////////////////////////////////
 //
 // String Table
@@ -237,10 +235,10 @@ END
 
 STRINGTABLE
 BEGIN
-    ID_FILE_NEW             "Create a new document\nNew"
-    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_NEW             "Create a new graph\nNew"
+    ID_FILE_OPEN            "Open an existing graph from file\nOpen"
     ID_FILE_CLOSE           "Close the active document\nClose"
-    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE            "Save the active graph\nSave"
     ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
     ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
     ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
@@ -317,6 +315,13 @@ END
 STRINGTABLE
 BEGIN
     ATL_IDS_MRU_FILE        "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_ADD_NODE        "Add a node to the graph\nAdd node"
+    ID_FILE_DELETE_NODE     "Delete the selected node\nDelete"
+    ID_FILE_LINK_NODE       "Create a link between two nodes\nLink"
 END
 
 #endif    // English (United States) resources

@@ -127,7 +127,13 @@
     <ResourceCompile Include="..\res\PowerGraph.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\uires\icon1.ico" />
+    <None Include="..\uires\mainfram.bmp" />
+    <None Include="..\uires\new ico.ico" />
     <None Include="..\uires\PowerGraph.ico" />
+    <None Include="..\uires\Reports Line Chart.bmp" />
+    <None Include="..\uires\Reports Line Chart.png" />
+    <None Include="..\uires\ribbon1.mfcribbon-ms" />
     <None Include="..\uires\toolbar.bmp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +145,7 @@
     <ClInclude Include="..\core\project\IProject.h" />
     <ClInclude Include="..\core\project\Project.h" />
     <ClInclude Include="..\core\stdafx.h" />
+    <ClInclude Include="..\res\resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

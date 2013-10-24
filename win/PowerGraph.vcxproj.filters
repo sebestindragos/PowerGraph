@@ -39,6 +39,20 @@
     <None Include="..\uires\toolbar.bmp">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\uires\mainfram.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\uires\ribbon1.mfcribbon-ms" />
+    <None Include="..\uires\Reports Line Chart.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\uires\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\uires\Reports Line Chart.png" />
+    <None Include="..\uires\new ico.ico">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\core\AboutDlg.h">
@@ -63,6 +77,9 @@
       <Filter>Project</Filter>
     </ClInclude>
     <ClInclude Include="..\core\Context.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\res\resource.h">
       <Filter>core</Filter>
     </ClInclude>
   </ItemGroup>
