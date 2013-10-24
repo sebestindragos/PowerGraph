@@ -38,7 +38,7 @@
     <IntDir>Debug\</IntDir>
     <OutDir>Debug\</OutDir>
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\JobPowerGraph;D:\JobPowerGraph\core;D:\JobPowerGraph\third-party\WTL\Include;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)\..\;..\third-party\WTL\Include;$(ProjectDir)\..\core\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IntDir>Release\</IntDir>
