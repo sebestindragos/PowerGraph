@@ -13,6 +13,9 @@
       <UniqueIdentifier>{1d5e0f51-6f11-4373-8388-9cd32a000040}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
     </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{4ad5ab02-3779-4cde-84f3-0a93e4cf0d98}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\core\PowerGraph.cpp">
@@ -20,6 +23,9 @@
     </ClCompile>
     <ClCompile Include="..\core\stdafx.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\project\Project.cpp">
+      <Filter>Project</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -50,6 +56,12 @@
     </ClInclude>
     <ClInclude Include="..\core\stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\project\Project.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\project\IProject.h">
+      <Filter>Project</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

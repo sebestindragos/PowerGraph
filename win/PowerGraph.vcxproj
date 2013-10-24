@@ -119,6 +119,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\core\PowerGraph.cpp" />
+    <ClCompile Include="..\core\project\Project.cpp" />
     <ClCompile Include="..\core\stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +134,8 @@
     <ClInclude Include="..\core\MainFrm.h" />
     <ClInclude Include="..\core\PowerGraph.h" />
     <ClInclude Include="..\core\PowerGraphView.h" />
+    <ClInclude Include="..\core\project\IProject.h" />
+    <ClInclude Include="..\core\project\Project.h" />
     <ClInclude Include="..\core\stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
