@@ -4,6 +4,8 @@
 
 #pragma once
 
+#include "project/Project.h"
+
 class CMainFrame : 
 	public CFrameWindowImpl<CMainFrame>, 
 	public CUpdateUI<CMainFrame>,
@@ -13,6 +15,7 @@ public:
 	DECLARE_FRAME_WND_CLASS(NULL, IDR_MAINFRAME)
 
 	CPowerGraphView m_view;
+  Project mProject;
 
 	virtual BOOL PreTranslateMessage(MSG* pMsg)
 	{
